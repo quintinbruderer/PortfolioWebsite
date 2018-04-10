@@ -6,6 +6,7 @@ position: relative;
 .thumbnail img{
 border: 1px solid white;
 margin: 0 5px 5px 0;
+max-width: 100%;
 }
 
 .thumbnail:hover{
@@ -20,11 +21,12 @@ border: 1px solid blue;
 position: absolute;
 background-color: lightyellow;
 padding: 5px;
-left: -1000px;
+/* left: -1000px; */
 border: 1px dashed gray;
 visibility: hidden;
 color: black;
 text-decoration: none;
+
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
@@ -35,6 +37,6 @@ padding: 2px;
 .thumbnail:hover span{ /*CSS for enlarged image*/
 visibility: visible;
 top: 0;
-left: 230px; /*position where enlarged image should offset horizontally */
+left: 0; /* position where enlarged image should offset horizontally */
 z-index: 50;
 }

@@ -48,8 +48,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       </div>
     </div>
 
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+    <a href="./resume.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+    <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
   </div>
 
   <!-- Navbar on small screens-->
@@ -57,8 +57,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
     <a href="./about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
     <a href="./portfolio.html" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Resume</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    <a href="./resume.html" class="w3-bar-item w3-button w3-padding-large">Resume</a>
+    <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
   </div>
 </div>
 
@@ -74,17 +74,48 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
 
     <h1 class="w3-right w3-row-padding">Portfolio</h1>
-    <div class="w3-twothird" id="gameSection">
+    <div class="w3-threequarter" id="gameSection">
       <h3>Video Game Dev</h3>
-      <h5 class="w3-padding-32">VideoGame Section about</h5>
-      <p class="w3-text-grey">Games games games</p>
-
+      <h3 class="w3-padding-32">Over the course of a couple years, I have produced a couple games. Included is Pidgey's Adventures, Pac-Something, and a prototype to Assassins: The Last Heir. On top of that, I have also built upon ideas for a couple games, including Slione The Chameleon, and Toward The Skyline.</h3>
 
       <div class="gallerycontainer w3-right-align">
-        <a class="thumbnail" onclick="" href="#thumb"><img src="media/tree_thumb.jpg" width="100px" height="66px" border="0" /><span><img src="media/tree.jpg" /><br />Simply beautiful.</span></a>
+        <p class="w3-text-grey">Assassins Art. Go here to see the animation</p>
+        <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/assassins.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/assassinF.png" /><br />Art intially pencil drawn by the very talented Calvin Nickish. I recreated it digitally for game graphics.</span></a>
+        <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/assassins.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/assassinM.png" /><br />Art intially pencil drawn by the very talented Calvin Nickish. I recreated it digitally for game graphics.</span></a>
+      </div>
 
-        <a class="thumbnail" onclick="" href="#thumb"><img src="media/ocean_thumb.jpg" width="100px" height="66px" border="0" /><span><img src="media/ocean.jpg" /><br />So real, it's unreal. Or is it?</span></a>
-        <br />
+
+      <div class="w3-container gallerycontainer">
+        <div class="w3-left-align">
+          <h4>Pidgey's Adventures. Can be played <a href="https://quintinbruderer.github.io/Final%20Project/Pidgeys%20Adventures/">here</a>.</h4>
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/Pidgey.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/PidgeyAd.jpg" /><br />For my creative Coding Final, I produced a Flappy Bird clone, using the p5.js JavaScript library.</span></a>
+        </div>
+      </div>
+      <div class="w3-container w3-right-align">
+        <h4>Pac-Something</h4>
+        <iframe style="max-width:100%" width="560" height="315" src="https://www.youtube.com/embed/iEH4TZKhVzQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="w3-container gallerycontainer">
+        <div class="w3-left-align">
+          <h4>Slione The Chameleon & Toward The Skyline</h4>
+          <div id="Slione">
+          <p>These 2 ideas I have been slowly building upon, and would like to see their potential</p>
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/slioneinitial.jpg" width="100px" height="66px" border="0" /><span><img src="../images/videoGameDev/SlioneTTS/slioneInitial.png" /><br />Starting on paper, a rough doodle spurs an idea</span></a>
+
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/slione1.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/SlioneTTS/slioneFace.png" /><br />Refining the game idea</span></a>
+
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/slione2.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/SlioneTTS/slioneStory.png" /><br />Creating the game story</span></a>
+
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/slione3.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/SlioneTTS/ControllerSlione.png" /><br />A rough controller layout</span></a> <br>
+        </div>
+        <hr>
+        <div id="TTS">
+          <a href="../images/videoGameDev/SlioneTTS/LevelDesign.pdf"> Toward The Skyline environment PDF</a> <br />
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/tts1.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/SlioneTTS/ttsHUD.png" /><br />A rough Hud Layout for Toward The Skyline</span></a>
+          <a class="thumbnail" onclick="" href="#thumb"><img src="../images/thumbnail/tts2.jpg" width="100px" height="70px" border="0" /><span><img src="../images/videoGameDev/SlioneTTS/ControllerTTS.png" /><br />A rough HUD Layout for Toward The Skyline</span></a>
+
+        </div>
+      </div>
 
         <a class="thumbnail" onclick="" href="#thumb"><img src="media/sushi2_thumb.jpg" width="100px" height="75px" border="0" /><span><img src="media/sushi2.jpg" /><br />Sushi for dinner anyone?</span></a>
 
