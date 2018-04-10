@@ -28,8 +28,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       type="button" onclick="dropDownFunction('AboutDropdown')">About Me <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content" id="AboutDropdown">
-        <a href="#aboutSection">About Me</a>
-        <a href="#storySection">Story</a>
+        <a href="./about.html#aboutSection">About Me</a>
+        <a href="./about.html#storySection">Story</a>
       </div>
     </div>
 
@@ -39,11 +39,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content" id="PortfolioDropDown">
-        <a href="./portfolio.html#gameSection">Video Game Dev</a>
-        <a href="./portfolio.html#modelSection">3D Modeling</a>
-        <a href="./portfolio.html#designSection">Design</a>
-        <a href="./portfolio.html#animationSection">Animation</a>
-        <a href="./portfolio.html#miscSection">MISC</a>
+        <a href="#gameSection">Video Game Dev</a>
+        <a href="#modelSection">3D Modeling</a>
+        <a href="#designSection">Design</a>
+        <a href="#animationSection">Animation</a>
+        <a href="#miscSection">MISC</a>
       </div>
     </div>
 
@@ -54,8 +54,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <!-- Navbar on small screens-->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="./" class="w3-bar-item w3-button w3-padding-large">About</a>
-    <a href="./portfolio.html" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
+    <a href="./about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="./" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Resume</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact</a>
   </div>
@@ -71,27 +71,49 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
-    <h1 class="w3-right w3-row-padding">About Me</h1>
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    <div id="gameSection">
+      <h1 class="w3-right w3-row-padding">Portfolio</h1>
+      <div class="w3-third w3-center">
+        <i class="fa fa-coffee w3-padding w3-text-red w3-margin-right"></i>
+      </div>
+      <div class="w3-twothird">
+        <h3>Video Game Dev</h3>
+        <h5 class="w3-padding-32">VideoGame Section about</h5>
+        <p class="w3-text-grey">Games games games</p>
+      </div>
     </div>
-    <div class="w3-twothird" id="aboutSection">
-      <h5 class="w3-padding-32">My name is Quinn Bruderer. I am a Junior student pursuing a BFA at the University Of Montana. I have declared a Media Arts major, with a Computer Science Minor. I have worked with many programs, including the Adobe Suite, Maya, and Unity. I am an active student in the Media Arts program, eagerly assisting other students. I am a TA for the CreativeCoding course, and have assisted other students learn JavaScript programming, and create interactive media.</h5>
 
-      <p class="w3-text-grey">When I have freetime (What is that?), I will often draw or create. Whether it is digitally produced or a physicial product, once I have an idea, I pursue making it. This includes customized LED Mirrors, Tapestry, Wood and Metalwork, as well as logos, characters and environments.</p>
-      <p class="w3-text-grey">...now, I very much enjoy sitting down and watching a movie, or playing a game. Once that happens, who knows where time goes?</p>
+    <div id="modelSection">
+      <div class="w3-twothird">
+        <h3>3d Model section</h3>
+        <h5 class="w3-padding-32">Model Section about</h5>
+        <p class="w3-text-grey">Models models models</p>
+      </div>
     </div>
-    <div class="w3-twothird" id="storySection">
-      <h1>Story</h1>
-      <h5 class="w3-padding-32">I have a passion for the interactive technology envornment, and although I have times strayed away, it always has brought me back. The question that always excites me:</h5>
-      <h5 class="w3-padding-32"> <em>How do I make something good...Something Great?</em> </h5>
 
-      <p class="w3-text-grey"> I am unsure which franchise came first (due to a 1 week gap), however I was introduced into the gaming industry with two very iconic franchises. <b>Spyro The Dragon</b> & <b>Pokemon</b>. I continued over the years with many other franchises. At 7th grade I was able to get my hands on Adobe Photoshop, and created collages and basic effects. Once I learned there was required logic to this artform, I proceeded to learn programming fundimentals. </p>
-      <p class="w3-text-grey"> Since then, I have worked with Adobe Premiere, Audition, Photoshop, Illustrator, and favorably, After Effects. </p>
+    <div id="designSection">
+      <div class="w3-twothird">
+        <h3>Designing section</h3>
+        <h5 class="w3-padding-32">Designing Section about</h5>
+        <p class="w3-text-grey">Design Design Design</p>
+      </div>
+    </div>
+    <div id="animationSection">
+      <div class="w3-twothird">
+        <h3>Animation section</h3>
+        <h5 class="w3-padding-32">Animation Section about</h5>
+        <p class="w3-text-grey">animate animate animate</p>
+      </div>
+    </div>
+    <div id="miscSection">
+      <div class="w3-twothird">
+        <h3>MISC section</h3>
+        <h5 class="w3-padding-32">MISC Section about</h5>
+        <p class="w3-text-grey">MISC MISC MISC</p>
+      </div>
     </div>
   </div>
 </div>
-
 <div class="w3-container">
 
 </div>
