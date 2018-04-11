@@ -40,3 +40,6 @@ top: 0;
 left: 0; /* position where enlarged image should offset horizontally */
 z-index: 50;
 }
+.video {
+  max-width: 95%
+}
