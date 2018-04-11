@@ -4,7 +4,7 @@ position: relative;
 }
 
 .thumbnail img{
-border: 1px solid white;
+border: 1px solid #607d8b;
 margin: 0 5px 5px 0;
 max-width: 100%;
 }
@@ -14,17 +14,17 @@ background-color: transparent;
 }
 
 .thumbnail:hover img{
-border: 1px solid blue;
+border: 1px #607d8b;
 }
 
 .thumbnail span{ /*CSS for enlarged image*/
 position: absolute;
-background-color: lightyellow;
+background-color: black;
 padding: 5px;
 /* left: -1000px; */
-border: 1px dashed gray;
+border: 1px dashed #607d8b;
 visibility: hidden;
-color: black;
+color: white;
 text-decoration: none;
 
 }
