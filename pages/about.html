@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../stylesheets/w3stylesheet.css">
 <link rel="stylesheet" href="../stylesheets/navbars.css">
+<script type="text/javascript" src="../website.js" async defer></script>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -63,9 +64,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 <!-- Header -->
-<header class="w3-container w3-dark-grey" style="padding-top:60px">
-  <h1 class="w3-margin w3-large w3-left">"You have to make those little noises, or it just doesn't work"</h1>
-  <h3 class="w3-margin w3-large w3-right"> - Bob Ross </h3>
+<header class="w3-container w3-dark-grey" style="padding-top:45px">
+  <h3 class="w3-margin w3-large w3-left" id="quote"></h3>
+  <h5 class="w3-margin w3-large w3-right" id="quoteAuthor"></h5>
 </header>
 
 <!-- Grid -->
@@ -94,43 +95,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <footer class="w3-container w3-padding-64 w3-center w3-black">
   <div class="w3-xlarge">
-    <a href="https://www.facebook.com/profile.php?id=100009530984630"><i class="fa fa-facebook-official w3-hover-opacity w3-padding-small" style="color:#8b9dc3"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100009530984630"><i class="fa fa-facebook-official w3-hover-opacity w3-padding-small" style="color:#3b5998"></i></a>
     <a href="https://www.linkedin.com/in/quinn-bruderer/"><i class="fa fa-linkedin w3-hover-opacity w3-padding-small "></i></a>
     <a href="mailto:quintinbruderer@yahoo.com"><i class="fa fa-envelope w3-hover-opacity w3-text-gray w3-padding-small"></i></a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
  </div>
 </footer>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function smallMenu() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-function dropDownFunction(d) {
-    document.getElementById(d).classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementsByClassName('dropdown-content')
-    console.log(myDropdown)
-    for (var i = 0; i < myDropdown.length; i++){
-      myDropdown[i]
-      if (myDropdown[i].classList.contains('show')) {
-        myDropdown[i].classList.remove('show');
-      }
-    }
-  }
-}
-
-</script>
 
 </body>
 </html>
